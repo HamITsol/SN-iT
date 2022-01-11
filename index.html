@@ -2,9 +2,12 @@
 <html lang="en">
 
 <meta charset="UTF-8">
-<title>HamIT solutions</title>
+<head>
+    <title>SN-IT solutions</title>
 <link rel="stylesheet" href="assets/css/main.css">
 <meta name="viewport" content="width=device-width, initial-scale=1">
+
+</head>
 
 <body>
 
@@ -44,15 +47,42 @@
     </div>
     </div>
 
+    <section>
+        <h1 class="contacth">OTA YHTEYTTÄ:</h1>
+        <div class="formcontainer">
+            
+          <form action="https://formspree.io/f/mqknarjj" method="POST" id="my-form">
+      
+            <div class="form-group">
+              <label for="firstName"> Etunimi</label>
+              <input type="text" id="firstName" name="firstName" required>
+            </div>
+      
+            <div class="form-group">
+              <label for="latsName">Sukunimi</label>
+              <input type="text" id="lastName" name="lastName" required>
+            </div>
+      
+            <div class="form-group">
+              <label for="email">Sähköposti</label>
+              <input type="email" id="email" name="email" required>
+            </div>
+      
+            <div class="form-group">
+              <label for="message">Viesti</label>
+              <textarea name="message" id="message" cols="30" rows="10" required></textarea>
+            </div>
+      
+            <button type="submit">Lähetä</button>
+          </form>
+        </div>
+        <div id="status"></div>
+      </section>
+      <script src="js/script.js"></script>
+    
     <!-- Footer -->
     <footer id="footer">
         <div class="inner">
-            <h2>Etiam veroeros lorem</h2>
-            <p>Pellentesque eleifend malesuada efficitur. Curabitur volutpat dui mi, ac imperdiet dolor tincidunt nec.
-                Ut erat lectus, dictum sit amet lectus a, aliquet rutrum mauris. Etiam nec lectus hendrerit, consectetur
-                risus viverra, iaculis orci. Phasellus eu nibh ut mi luctus auctor. Donec sit amet dolor in diam feugiat
-                venenatis. </p>
-
             <ul class="icons">
                 <li><a href="#" class="icon fa-twitter"><span class="label">Twitter</span></a></li>
                 <li><a href="#" class="icon fa-facebook"><span class="label">Facebook</span></a></li>
