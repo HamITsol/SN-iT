@@ -1,0 +1,191 @@
+<?xml version="1.0" standalone="no"?>
+<mlt LC_NUMERIC="C" version="7.5.0" title="Shotcut version 21.12.24" producer="main_bin">
+  <profile description="automatic" width="1920" height="1080" progressive="1" sample_aspect_num="1" sample_aspect_den="1" display_aspect_num="16" display_aspect_den="9" frame_rate_num="60" frame_rate_den="1" colorspace="601"/>
+  <playlist id="main_bin">
+    <property name="xml_retain">1</property>
+  </playlist>
+  <producer id="black" in="00:00:00.000" out="00:00:09.417">
+    <property name="length">00:00:09.433</property>
+    <property name="eof">pause</property>
+    <property name="resource">0</property>
+    <property name="aspect_ratio">1</property>
+    <property name="mlt_service">color</property>
+    <property name="mlt_image_format">rgba</property>
+    <property name="set.test_audio">0</property>
+  </producer>
+  <playlist id="background">
+    <entry producer="black" in="00:00:00.000" out="00:00:09.417"/>
+  </playlist>
+  <producer id="producer0" in="00:00:00.000" out="00:00:36.983">
+    <property name="length">00:00:37.000</property>
+    <property name="eof">pause</property>
+    <property name="resource">0.75:c:/Users/sante/Videos/2022-01-13 11-08-18.mp4</property>
+    <property name="aspect_ratio">1</property>
+    <property name="seekable">1</property>
+    <property name="audio_index">1</property>
+    <property name="video_index">0</property>
+    <property name="mute_on_pause">1</property>
+    <property name="warp_speed">0.75</property>
+    <property name="warp_resource">c:/Users/sante/Videos/2022-01-13 11-08-18.mp4</property>
+    <property name="mlt_service">timewarp</property>
+    <property name="shotcut:producer">avformat</property>
+    <property name="video_delay">0</property>
+    <property name="shotcut:hash">31b95b02c19a3e8251586a509d65f012</property>
+    <property name="shotcut:caption">2022-01-13 11-08-18.mp4 (0.75x)</property>
+    <property name="xml">was here</property>
+    <filter id="filter0" in="00:00:09.283" out="00:00:13.067">
+      <property name="mlt_service">crop</property>
+      <property name="use_profile">1</property>
+      <property name="center">0</property>
+      <property name="center_bias">0</property>
+      <property name="top">87</property>
+      <property name="bottom">87</property>
+      <property name="left">51</property>
+      <property name="right">974</property>
+    </filter>
+    <filter id="filter1" in="00:00:09.283" out="00:00:12.617">
+      <property name="argument">Unit Test - Testing links</property>
+      <property name="geometry">427 21 1070 250 1</property>
+      <property name="family">Verdana</property>
+      <property name="size">1080</property>
+      <property name="weight">500</property>
+      <property name="style">normal</property>
+      <property name="fgcolour">#000000</property>
+      <property name="bgcolour">#00000000</property>
+      <property name="olcolour">#aa000000</property>
+      <property name="pad">0</property>
+      <property name="halign">center</property>
+      <property name="valign">middle</property>
+      <property name="outline">3</property>
+      <property name="mlt_service">dynamictext</property>
+      <property name="shotcut:filter">dynamicText</property>
+      <property name="shotcut:usePointSize">0</property>
+      <property name="shotcut:animIn">00:00:00.000</property>
+      <property name="shotcut:animOut">00:00:00.000</property>
+    </filter>
+  </producer>
+  <producer id="producer1" in="00:00:00.000" out="00:00:55.483">
+    <property name="length">00:00:55.500</property>
+    <property name="eof">pause</property>
+    <property name="resource">0.5:c:/Users/sante/Videos/2022-01-13 11-08-18.mp4</property>
+    <property name="aspect_ratio">1</property>
+    <property name="seekable">1</property>
+    <property name="audio_index">1</property>
+    <property name="video_index">0</property>
+    <property name="mute_on_pause">1</property>
+    <property name="warp_speed">0.5</property>
+    <property name="warp_resource">c:/Users/sante/Videos/2022-01-13 11-08-18.mp4</property>
+    <property name="mlt_service">timewarp</property>
+    <property name="shotcut:producer">avformat</property>
+    <property name="video_delay">0</property>
+    <property name="shotcut:hash">31b95b02c19a3e8251586a509d65f012</property>
+    <property name="shotcut:caption">2022-01-13 11-08-18.mp4 (0.5x)</property>
+    <property name="xml">was here</property>
+    <filter id="filter2" in="00:00:26.467" out="00:00:29.400">
+      <property name="mlt_service">crop</property>
+      <property name="use_profile">1</property>
+      <property name="center">0</property>
+      <property name="center_bias">0</property>
+      <property name="top">87</property>
+      <property name="bottom">87</property>
+      <property name="left">51</property>
+      <property name="right">974</property>
+    </filter>
+    <filter id="filter3" in="00:00:26.467" out="00:00:29.400">
+      <property name="argument">Unit Test - Testing search</property>
+      <property name="geometry">427 21 1070 250 1</property>
+      <property name="family">Verdana</property>
+      <property name="size">1080</property>
+      <property name="weight">500</property>
+      <property name="style">normal</property>
+      <property name="fgcolour">#000000</property>
+      <property name="bgcolour">#00000000</property>
+      <property name="olcolour">#aa000000</property>
+      <property name="pad">0</property>
+      <property name="halign">center</property>
+      <property name="valign">middle</property>
+      <property name="outline">3</property>
+      <property name="mlt_service">dynamictext</property>
+      <property name="shotcut:filter">dynamicText</property>
+      <property name="shotcut:usePointSize">0</property>
+      <property name="shotcut:animIn">00:00:00.000</property>
+      <property name="shotcut:animOut">00:00:00.000</property>
+    </filter>
+  </producer>
+  <chain id="chain0" out="00:00:27.733">
+    <property name="length">00:00:27.750</property>
+    <property name="eof">pause</property>
+    <property name="resource">c:/Users/sante/Videos/2022-01-13 11-08-18.mp4</property>
+    <property name="mlt_service">avformat-novalidate</property>
+    <property name="seekable">1</property>
+    <property name="audio_index">1</property>
+    <property name="video_index">0</property>
+    <property name="mute_on_pause">0</property>
+    <property name="shotcut:hash">31b95b02c19a3e8251586a509d65f012</property>
+    <property name="shotcut:caption">2022-01-13 11-08-18.mp4</property>
+    <property name="xml">was here</property>
+    <filter id="filter4" in="00:00:24.617" out="00:00:26.467">
+      <property name="mlt_service">crop</property>
+      <property name="use_profile">1</property>
+      <property name="center">0</property>
+      <property name="center_bias">0</property>
+      <property name="top">711</property>
+      <property name="bottom">285</property>
+      <property name="left">741</property>
+      <property name="right">883</property>
+    </filter>
+  </chain>
+  <chain id="chain1" out="00:00:27.733">
+    <property name="length">00:00:27.750</property>
+    <property name="eof">pause</property>
+    <property name="resource">c:/Users/sante/Videos/2022-01-13 11-08-18.mp4</property>
+    <property name="mlt_service">avformat-novalidate</property>
+    <property name="seekable">1</property>
+    <property name="audio_index">1</property>
+    <property name="video_index">0</property>
+    <property name="mute_on_pause">0</property>
+    <property name="shotcut:hash">31b95b02c19a3e8251586a509d65f012</property>
+    <property name="shotcut:caption">2022-01-13 11-08-18.mp4</property>
+    <property name="xml">was here</property>
+    <filter id="filter5" in="00:00:26.483" out="00:00:27.733">
+      <property name="mlt_service">crop</property>
+      <property name="use_profile">1</property>
+      <property name="center">0</property>
+      <property name="center_bias">0</property>
+      <property name="top">711</property>
+      <property name="bottom">285</property>
+      <property name="left">741</property>
+      <property name="right">883</property>
+    </filter>
+  </chain>
+  <playlist id="playlist0">
+    <property name="shotcut:video">1</property>
+    <property name="shotcut:name">V1</property>
+    <entry producer="producer0" in="00:00:09.283" out="00:00:12.617"/>
+    <entry producer="producer1" in="00:00:26.467" out="00:00:29.400"/>
+    <entry producer="chain0" in="00:00:24.617" out="00:00:26.467"/>
+    <entry producer="chain1" in="00:00:26.483" out="00:00:27.733"/>
+  </playlist>
+  <tractor id="tractor0" title="Shotcut version 21.12.24" in="00:00:00.000" out="00:00:09.417">
+    <property name="shotcut">1</property>
+    <property name="shotcut:projectAudioChannels">2</property>
+    <property name="shotcut:projectFolder">0</property>
+    <track producer="background"/>
+    <track producer="playlist0"/>
+    <transition id="transition0">
+      <property name="a_track">0</property>
+      <property name="b_track">1</property>
+      <property name="mlt_service">mix</property>
+      <property name="always_active">1</property>
+      <property name="sum">1</property>
+    </transition>
+    <transition id="transition1">
+      <property name="a_track">0</property>
+      <property name="b_track">1</property>
+      <property name="version">0.1</property>
+      <property name="mlt_service">frei0r.cairoblend</property>
+      <property name="threads">0</property>
+      <property name="disable">1</property>
+    </transition>
+  </tractor>
+</mlt>
