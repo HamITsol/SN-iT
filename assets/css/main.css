@@ -157,10 +157,6 @@
 		font-style: italic;
 	}
 
-	p {
-		margin: 0 0 2em 0;
-	}
-
 	h1, h2, h3, h4, h5, h6 {
 		color: #fff;
 		font-weight: 400;
@@ -293,6 +289,7 @@ form{
 }
 .contacth{
 	text-align: center;
+	margin-top:15px;
 }
 
 	.formcontainer{
@@ -317,14 +314,28 @@ form{
         padding: 20px 20px 0px 20px;
         font-size: 30px;
         flex: 1 1 0;
+		text-align: center;
       }
 
 	  #status {
 		text-align: center;
 	}
 
+	.minner {
+		margin-top:15px;
+		text-align: center;
+	}
     
+.content > div > video{
+	width:90%;
+    border: 1px solid white;
+    border-radius: 5px;
 
+
+}
+.content > div > h1 {
+    text-align: center;
+}
 
 	  
 
@@ -926,6 +937,7 @@ form{
 		background-color: #70c7be;
 		border-radius: 4px;
 		width: 100%;
+		font-family: "Source Sans Pro", sans-serif;
 		border: 0;
 		color:  black !important;
 		cursor: pointer;
@@ -943,7 +955,7 @@ form{
 		input[type="button"]:hover,
 		button:hover,
 		.button:hover {
-			background-color: #82cec6;
+			background-color: #3b3f54;
 		}
 
 		input[type="submit"]:active,
@@ -951,7 +963,7 @@ form{
 		input[type="button"]:active,
 		button:active,
 		.button:active {
-			background-color: #5ec0b6;
+			background-color: #3b3f54;
 		}
 
 		input[type="submit"].icon,
