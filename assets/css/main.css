@@ -303,6 +303,8 @@ form{
     justify-content: center;
    
 	}
+
+
     .advideo1 iframe{
         margin-left: 10px;
         margin-right: 10px;
@@ -325,10 +327,14 @@ form{
 		margin-top:15px;
 		text-align: center;
 	}
-    
+    .formcontainer form {
+		border: 1px solid #494949;
+		border-radius: 5px;
+		padding: 3px;
+	}
 .content > div > video{
 	width:90%;
-    border: 1px solid white;
+    border: 1px solid #494949;
     border-radius: 5px;
 
 
@@ -1327,7 +1333,6 @@ form{
 		#footer .copyright {
 			color: rgba(255, 255, 255, 0.5);
 			font-size: 0.9em;
-			margin: 0 0 2em 0;
 			padding: 0;
 			text-align: center;
 		}
